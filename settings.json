@@ -36,6 +36,13 @@
       "before": ["leader", "l"],
       "commands": ["workbench.action.focusRightGroup"]
     },
+
+    // FILE TREE 
+    {
+      "before": ["leader", "n", "e"],
+      "commands": ["workbench.explorer.fileView.focus"]
+    },
+ 
     // NICE TO HAVE
     { "before": ["leader", "w"], "commands": [":w!"] },
     { "before": ["leader", "q"], "commands": [":q!"] },
