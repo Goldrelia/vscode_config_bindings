@@ -48,12 +48,12 @@
     {
       "key": "shift+n",
       "command": "explorer.newFolder",
-      "when": "explorerViewletFocus"
+      "when": "explorerViewletFocus && !inputFocus"
     },
     {
       "key": "shift+n",
       "command": "workbench.action.newWindow",
-      "when": "!explorerViewletFocus"
+      "when": "!explorerViewletFocus && !inputFocus"
     },
     {
       "command": "deleteFile",
