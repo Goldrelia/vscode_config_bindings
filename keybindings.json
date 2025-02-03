@@ -1,6 +1,6 @@
 // Place your key bindings in this file to override the defaults
 [
-    // NAVIGATION
+    // Navigation and terminal keybinds
     {
       "key": "ctrl+shift+a",
       "command": "workbench.action.terminal.focusNext",
@@ -25,7 +25,7 @@
       "command": "workbench.action.terminal.kill",
       "when": "terminalFocus"
     },
-    // FILE TREE
+    // File tree keybinds
     {
       "command": "workbench.action.toggleSidebarVisibility",
       "key": "ctrl+e"
@@ -61,7 +61,7 @@
       "when": "filesExplorerFocus && !inputFocus"
     },
   
-    // EXTRA
+    // Extra
     {
       "key": "ctrl+shift+5",
       "command": "editor.emmet.action.matchTag"
