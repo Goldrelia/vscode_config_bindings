@@ -1,7 +1,7 @@
 # vscode_config_bindings
 My Vim bindings for Vscode!
 
-Road towards using Neovim as my main IDE/text editor :)!
+The road towards using Neovim as my main IDE/text editor :)!
 
 Setup before:
 - Install and enable the Vim Vscode extension by vscodevim
