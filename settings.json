@@ -1,16 +1,16 @@
 {
-    // My theme
+    // My theme and vscode config
     "workbench.colorTheme": "Gruvbox Dark Medium",
     "editor.minimap.enabled": false,
     "breadcrumbs.enabled": false,
     "workbench.activityBar.location": "hidden",
 
-    // Vim stuff
+    // Vim config
     "editor.lineNumbers": "relative",
     "vim.leader": "<Space>",
     "vim.hlsearch": true,
     "vim.normalModeKeyBindingsNonRecursive": [
-      // NAVIGATION
+      // Navigation!
       // switch b/w buffers
     { "before": ["<S-h>"], "commands": [":bprevious"] },
     { "before": ["<S-l>"], "commands": [":bnext"] },
@@ -43,7 +43,7 @@
       "commands": ["workbench.explorer.fileView.focus"]
     },
  
-    // NICE TO HAVE
+    // Nice to have vim commands
     { "before": ["leader", "w"], "commands": [":w!"] },
     { "before": ["leader", "q"], "commands": [":q!"] },
     { "before": ["leader", "x"], "commands": [":x!"] },
