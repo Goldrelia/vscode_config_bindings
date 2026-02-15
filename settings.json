@@ -11,7 +11,7 @@
     "vim.hlsearch": true,
     "vim.normalModeKeyBindingsNonRecursive": [
       // Navigation!
-      // switch b/w buffers
+      // switch b/w buffers (shift l and shift h)
     { "before": ["<S-h>"], "commands": [":bprevious"] },
     { "before": ["<S-l>"], "commands": [":bnext"] },
 
